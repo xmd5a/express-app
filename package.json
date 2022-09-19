@@ -1,0 +1,11 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xmd5a/express-app.git",
+  "author": "Piotr Szarmach (xmd5a) <zakaru@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
