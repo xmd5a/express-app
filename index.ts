@@ -17,9 +17,9 @@ app.use(
   })
 );
 
-app.use("/users", usersRouter);
+app.use("api/users", usersRouter);
 
-app.get("/", (req: Request, res: Response) => {
+app.get("api/", (req: Request, res: Response) => {
   res.send("Express + TypeScript Server!");
 });
 
